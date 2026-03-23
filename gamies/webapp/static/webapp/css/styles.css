@@ -33,3 +33,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.logo{
+    width: 100px;
+    height: auto;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    
+}
