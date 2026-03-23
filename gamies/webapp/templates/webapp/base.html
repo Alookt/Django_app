@@ -1,0 +1,30 @@
+{% load static %}
+<html>
+    <head>
+        <title>
+            {% block title%}{%endblock%}
+        </title>
+        <link rel="stylesheet" href="{% static 'webapp/css/base.css' %}">
+         {% block head %}{%endblock%}
+    </head>
+    <body>
+        <header>
+             <h2 position: centre;>Gamies</h2> 
+                <nav>
+                    <ul>
+                    </ul>
+                </nav>
+                {% block header %}{%endblock%}
+        </header>
+        <section>
+            <div class="block">
+                {% block content %}{% endblock %}
+
+            </div>
+        </section>
+    </body>
+    <footer>
+        &copy; 2024 Gamies. All rights reserved.
+    </footer>
+    <script src="{% static 'js/script.js' %}"></script>
+</html>
