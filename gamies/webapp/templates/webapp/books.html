@@ -1,0 +1,18 @@
+{% extends 'webapp/base.html' %}
+
+{% block title%} 本好き {% endblock %}
+
+{% block content %}
+{% for book in books %}
+    <h1> {{ books.0.Book_title }}</h1>
+    <ul>
+        {% if book.manuscript %}
+             <li><a href="{{book.manuscript.url}}">read{{ book.Book_title }}</a></li>
+        {%else%}
+             <li>No manuscript available for {{ book.Book_title }}</li>
+        {% endif %}
+
+    </ul>
+{% endfor %} 
+{% endblock %}
+

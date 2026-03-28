@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-             <h2 class="logo">Gamies</h2> 
+             <h2 class="logo">本の虫</h2> 
                 <nav>
                     <ul>
                     </ul>
@@ -19,12 +19,20 @@
         <section>
             <div class="block">
                 {% block content %}{% endblock %}
+                <card>
+                    <h3>Book List</h3>
+                    <ul>
+                        {% for book in books %}
+                            <li>{{ book.Book_title }} - Published: {{ book.published }}</li>
+                        {% endfor %}
+                    </ul>
+                </card>
 
             </div>
         </section>
     </body>
     <footer>
-        &copy; 2024 Gamies. All rights reserved.
+        &copy; 2026 Bookworms. All rights reserved.
     </footer>
     <script src="{% static 'webapp/js/script.js' %}"></script>
 </html>

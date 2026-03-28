@@ -36,8 +36,12 @@ footer {
 .logo{
     width: 100px;
     height: auto;
-    justify-content: center;
     font-weight: 600;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 6 0 4 0; 
+    border: 4px solid #2324;
+
     
 }
