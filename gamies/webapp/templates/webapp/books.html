@@ -1,18 +1,33 @@
 {% extends 'webapp/base.html' %}
+{% load static %}
+
 
 {% block title%} 本好き {% endblock %}
 
-{% block content %}
-{% for book in books %}
-    <h1> {{ book.Book_title }}</h1>
-    <ul>
-        {% if book.manuscript %}
-             <li><a href="{{book.manuscript.url}}">read{{ book.Book_title }}</a></li>
-        {%else%}
-             <li>No manuscript available for {{ book.Book_title }}</li>
-        {% endif %}
+{% block head%}
+    <link rel="stylesheet" type="text/css" href="{% static 'webapp/css/styles.css' %}">
+{% endblock %}
 
-    </ul>
-{% endfor %} 
+{% block content %}
+<div class="book-list">
+    {% for book in books %}
+        <div class="book-item">
+           
+            <strong>{{ book.Book_title }}</strong>
+            {% if book.manuscript %}
+                <img src="{{ book.cover.url }}" alt="cover of the book">
+                <nav>
+                    <ul>
+                        <li>
+                <a href="{% url 'book_detail' book.id %}">Read Chapters</a>
+                        </li>
+                    </ul>
+                </nav>
+            {% endif %}
+            <h1> {{ book.author }} </h1>
+        </div>
+    {% endfor %}
+</div>
+
 {% endblock %}
 

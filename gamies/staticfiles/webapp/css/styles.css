@@ -4,13 +4,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #827;
     color: #333;
 }
 
 header {
     background-color: #4CAF50;
-    color: white;
+    color: #234;
     text-align: center;
     padding: 1rem;
 }
@@ -27,7 +27,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #333;
+    background-color: #E033;
     color: white;
     position: fixed;
     bottom: 0;
@@ -40,7 +40,52 @@ footer {
     font-size: 1.5rem;
     text-transform: uppercase;
     text-align: center;
-    padding: 6rem; 
+    padding: 6px 0 4px 0; 
     border: 4px solid #2324;
-    
+    box-shadow: 3px 0px 8px rgba(121, 42, 23, 0.7);
 }
+#file-viewer-wrapper {
+    position: relative;
+    background-color: #525659; /* Matches common PDF viewer backgrounds */
+}
+
+.book-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+.chapters{
+    margin-top: 20px;
+    border: 4px double #7328;
+    padding: 10px;
+    background-color: #3283;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 8px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #249;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size : 0.8rem;
+    background-color: #421;
+    border-radius: 5px;
+    border: 3px solid #2494;
+}
+
+nav ul li a:hover {
+    color: #602;
+}
+

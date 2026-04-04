@@ -12,6 +12,8 @@
              <h2 class="logo">本の虫</h2> 
                 <nav>
                     <ul>
+                        <li><a href="{% url 'index' %}"> Home </a></li>
+                        <li><a href="{% url 'books' %}">Books</a></li>
                     </ul>
                 </nav>
                 {% block header %}{%endblock%}

@@ -1,0 +1,719 @@
+Log created: 2026-02-27T18:38:17.519124800Z
+Process ID:  5692 (0x163c)
+Parent PID:  3512 (0xdb8)
+Executable:  C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+Commandline: "C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe" 
+Lazy loader failed to load "SHELL32.DLL": VERR_UNRESOLVED_ERROR
+
+!!! rtR3WinUnhandledXcptFilter caught an exception on thread 000000f8!!!
+
+ExceptionCode=0x80000003 ExceptionFlags=0x00000000 ExceptionAddress=003c2ec4
+ExceptionInformation[0]=00000000
+
+cs:eip=0023:003c2ec4
+ss:esp=002b:06efdd60 ebp=06efdd7c
+eax=06c24000 ecx=f67dc754 edx=00000000 ebx=00000001
+esi=00000010 edi=06ff1a98 esp=06efdd60 ebp=06efdd7c
+ds=002b es=002b fs=0053 gs=002b eflags=00000202
+
+Stack 06efd690, dumping 0x2970 bytes (low=06e00000, high=06f00000)
+06efd690/0000: c4 2e 3c 00 74 d7 ef 06-73 74 61 63 6b 6d 61 72 ..<.t...stackmar
+06efd6a0/0010: 6b 65 72 00 fc 11 92 f0-44 d7 ef 06 d2 16 01 76 ker.....D......v
+06efd6b0/0020: 74 d7 ef 06 91 af 8a 2f-00 00 00 00 40 15 01 76 t....../....@..v
+06efd6c0/0030: 00 00 00 00 00 00 00 00-01 00 00 00 00 00 00 00 ................
+06efd6d0/0040: 08 00 00 00 00 00 00 00-06 00 00 00 00 00 00 00 ................
+06efd6e0/0050: a0 11 3e 00 74 d7 ef 06-10 00 00 00 00 00 00 00 ..>.t...........
+06efd6f0/0060: 98 1a ff 06 00 00 00 00-2b 00 00 00 00 00 00 00 ........+.......
+06efd700/0070: 4c 32 29 77 00 00 00 00-00 00 00 00 50 d7 ef 06 L2)w........P...
+06efd710/0080: d3 d8 25 77 4c 68 34 77-00 d9 ef 06 b0 d8 ef 06 ..%wLh4w........
+06efd720/0090: a0 fd b9 06 b9 b0 27 77-91 af 8a 2f b4 d6 ef 06 ......'w.../....
+06efd730/00a0: ab ea f3 75 c4 d7 ef 06-30 0d f7 75 55 ed 64 5f ...u....0..uU.d_
+06efd740/00b0: fe ff ff ff 74 ff ef 06-03 49 2c 77 74 d7 ef 06 ....t....I,wt...
+06efd750/00c0: 12 78 29 77 74 ff ef 06-fe ff ff ff 00 00 00 00 .x)wt...........
+06efd760/00d0: 8c d7 ef 06 90 71 29 77-00 00 00 00 00 00 00 00 .....q)w........
+06efd770/00e0: 00 00 00 00 b0 d8 ef 06-00 d9 ef 06 38 ca 32 77 ............8.2w
+06efd780/00f0: 01 00 00 00 28 ca 32 77-80 cb 22 00 ac d7 ef 06 ....(.2w..".....
+06efd790/0100: 90 b5 29 77 70 b3 34 77-a0 53 29 77 b0 d8 ef 06 ..)wp.4w.S)w....
+06efd7a0/0110: 64 ff ef 06 00 d9 ef 06-3c d8 ef 06 d0 d7 ef 06 d.......<.......
+06efd7b0/0120: 62 92 2a 77 b0 d8 ef 06-64 ff ef 06 00 d9 ef 06 b.*w....d.......
+06efd7c0/0130: 3c d8 ef 06 f8 fe ef 06-80 92 2a 77 64 ff ef 06 <.........*wd...
+06efd7d0/0140: 98 d8 ef 06 34 92 2a 77-b0 d8 ef 06 64 ff ef 06 ....4.*w....d...
+06efd7e0/0150: 00 d9 ef 06 3c d8 ef 06-70 b5 29 77 64 ff ef 06 ....<...p.)wd...
+06efd7f0/0160: b0 d8 ef 06 00 00 00 00-2f 99 28 77 b0 d8 ef 06 ......../.(w....
+06efd800/0170: 64 ff ef 06 00 d9 ef 06-3c d8 ef 06 70 b5 29 77 d.......<...p.)w
+06efd810/0180: 98 1a ff 06 10 00 00 00-b0 d8 ef 06 00 00 00 00 ................
+06efd820/0190: 00 d9 ef 06 64 ff ef 06-0d 00 00 00 00 a0 ef 06 ....d...........
+06efd830/01a0: 00 00 f0 06 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06efd840/01b0: 10 02 12 03 10 02 10 02-10 02 14 02 12 03 10 02 ................
+06efd850/01c0: 10 02 10 02 10 02 10 02-01 03 01 03 01 03 01 03 ................
+06efd860/01d0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 2>
+06efd890/0200: 00 00 00 00 5a 85 77 a5-7c dd ef 06 16 57 29 77 ....Z.w.|....W)w
+06efd8a0/0210: b0 d8 ef 06 00 d9 ef 06-b0 d8 ef 06 00 d9 ef 06 ................
+06efd8b0/0220: 03 00 00 80 00 00 00 00-00 00 00 00 c4 2e 3c 00 ..............<.
+06efd8c0/0230: 01 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06efd8d0/0240: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 2>
+06efd900/0270: 7f 00 01 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06efd910/0280: 00 00 00 00 00 00 00 00-00 00 00 00 7f 02 00 00 ................
+06efd920/0290: 00 00 00 00 ff ff 00 00-00 00 00 00 00 00 00 00 ................
+06efd930/02a0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 4>
+06efd980/02f0: 00 00 00 00 00 00 00 00-00 00 00 00 2b 00 00 00 ............+...
+06efd990/0300: 53 00 00 00 2b 00 00 00-2b 00 00 00 98 1a ff 06 S...+...+.......
+06efd9a0/0310: 10 00 00 00 01 00 00 00-00 00 00 00 54 c7 7d f6 ............T.}.
+06efd9b0/0320: 00 40 c2 06 7c dd ef 06-c4 2e 3c 00 23 00 00 00 .@..|.....<.#...
+06efd9c0/0330: 02 02 00 00 60 dd ef 06-2b 00 00 00 7f 02 00 00 ....`...+.......
+06efd9d0/0340: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06efd9e0/0350: 00 00 00 00 80 1f 00 00-ff ff 00 00 00 00 00 00 ................
+06efd9f0/0360: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 12>
+06efdac0/0430: 00 00 00 00 00 00 00 00-00 00 00 00 10 02 12 03 ................
+06efdad0/0440: 10 02 10 02 10 02 14 02-12 03 10 02 10 02 10 02 ................
+06efdae0/0450: 10 02 10 02 01 03 01 03-01 03 01 03 ca 81 77 a5 ..............w.
+06efdaf0/0460: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06efdb00/0470: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06efdb10/0480: 30 fb ff ff 20 07 00 00-30 fb ff ff d0 04 00 00 0... ...0.......
+06efdb20/0490: f0 00 00 00 60 01 00 00-5c 00 73 00 79 00 73 00 ....`...\.s.y.s.
+06efdb30/04a0: 1f 00 00 40 00 00 00 00-00 00 00 00 00 00 00 00 ...@............
+06efdb40/04b0: c4 2e 3c 00 00 00 00 00-01 00 00 00 00 00 00 00 ..<.............
+06efdb50/04c0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 6>
+06efdbc0/0530: 00 00 00 00 00 00 00 00-02 00 00 00 34 fd ff ff ............4...
+06efdbd0/0540: 40 04 00 00 34 fd ff ff-cc 02 00 00 34 00 00 00 @...4.......4...
+06efdbe0/0550: 40 01 00 00 7f 00 00 00-60 dd ef 06 00 00 00 00 @.......`.......
+06efdbf0/0560: 02 00 00 00 01 00 00 00-00 00 00 00 00 00 ff 06 ................
+06efdc00/0570: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 19>
+06efdd40/06b0: 98 1a ff 06 10 00 00 00-58 dd ef 06 e0 51 3d 00 ........X....Q=.
+06efdd50/06c0: fd 2d 3c 00 64 dd ef 06-7c dd ef 06 c4 2e 3c 00 .-<.d...|.....<.
+06efdd60/06d0: fd 2d 3c 00 cc 2d 3c 00-dd ff ff ff d8 2e 3c 00 .-<..-<.......<.
+06efdd70/06e0: ac dd ef 06 08 00 00 00-2a 10 02 07 b8 dd ef 06 ........*.......
+06efdd80/06f0: 6c 2e 3c 00 64 f0 4b 00-d8 2d 3c 00 04 4c 3d 00 l.<.d.K..-<..L=.
+06efdd90/0700: 2a 10 02 07 ac dd ef 06-00 00 00 00 10 00 00 00 *...............
+06efdda0/0710: 10 00 00 00 03 00 00 00-c4 dd ef 06 ff ff ff ff ................
+06efddb0/0720: 80 15 4c 00 98 1a ff 06-d0 dd ef 06 a1 4d 3d 00 ..L..........M=.
+06efddc0/0730: 10 00 00 00 88 33 ff 06-50 de ef 06 50 de ef 06 .....3..P...P...
+06efddd0/0740: f0 dd ef 06 2c 4f 3d 00-01 00 00 00 50 de ef 06 ....,O=.....P...
+06efdde0/0750: 00 00 00 00 00 00 00 00-00 10 c2 06 00 00 00 00 ................
+06efddf0/0760: 04 de ef 06 86 4f 3d 00-10 00 00 00 01 00 00 00 .....O=.........
+06efde00/0770: 01 00 00 00 78 fe ef 06-39 1f 3c 00 01 00 00 00 ....x...9.<.....
+06efde10/0780: 50 de ef 06 10 00 00 00-70 3b 3c 00 00 10 c2 06 P.......p;<.....
+06efde20/0790: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 2>
+06efde50/07c0: 98 1a ff 06 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06efde60/07d0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 334>
+06eff350/1cc0: 00 00 00 00 00 00 00 00-08 f4 ef 06 00 01 00 00 ................
+06eff360/1cd0: 61 fb f4 75 00 00 00 00-00 00 00 00 00 01 00 00 a..u............
+06eff370/1ce0: 30 2f 02 07 01 00 00 00-28 f4 ef 06 00 02 00 00 0/......(.......
+06eff380/1cf0: 61 fb f4 75 00 01 00 00-00 00 00 00 00 01 00 00 a..u............
+06eff390/1d00: 30 2f 02 07 01 00 00 00-fc ff ff ff 01 00 00 00 0/..............
+06eff3a0/1d10: 00 00 00 00 00 01 00 00-22 02 cc ff e4 fb ef 06 ........".......
+06eff3b0/1d20: 30 2f 02 07 10 11 ab 76-f8 f3 ef 06 64 b5 f4 75 0/.....v....d..u
+06eff3c0/1d30: 28 f6 ef 06 e4 fa ef 06-00 01 00 00 00 00 00 00 (...............
+06eff3d0/1d40: 28 f4 ef 06 10 11 ab 76-00 00 00 00 38 f6 ef 06 (......v....8...
+06eff3e0/1d50: 00 01 00 00 00 00 00 00-00 01 00 00 00 00 00 00 ................
+06eff3f0/1d60: 01 00 00 00 00 00 00 00-5c f8 ef 06 35 b6 3c 00 ........\...5.<.
+06eff400/1d70: e4 04 00 00 00 00 00 00-28 f4 ef 06 00 01 00 00 ........(.......
+06eff410/1d80: e4 fa ef 06 5c f8 ef 06-47 b6 3c 00 38 f6 ef 06 ....\...G.<.8...
+06eff420/1d90: cc cc 00 00 0e 00 0f 00-20 00 01 00 02 00 03 00 ........ .......
+06eff430/1da0: 04 00 05 00 06 00 07 00-08 00 09 00 0a 00 0b 00 ................
+06eff440/1db0: 0c 00 0d 00 0e 00 0f 00-10 00 11 00 12 00 13 00 ................
+06eff450/1dc0: 14 00 15 00 16 00 17 00-18 00 19 00 1a 00 1b 00 ................
+06eff460/1dd0: 1c 00 1d 00 1e 00 1f 00-20 00 21 00 22 00 23 00 ........ .!.".#.
+06eff470/1de0: 24 00 25 00 26 00 27 00-28 00 29 00 2a 00 2b 00 $.%.&.'.(.).*.+.
+06eff480/1df0: 2c 00 2d 00 2e 00 2f 00-30 00 31 00 32 00 33 00 ,.-.../.0.1.2.3.
+06eff490/1e00: 34 00 35 00 36 00 37 00-38 00 39 00 3a 00 3b 00 4.5.6.7.8.9.:.;.
+06eff4a0/1e10: 3c 00 3d 00 3e 00 3f 00-40 00 41 00 42 00 43 00 <.=.>.?.@.A.B.C.
+06eff4b0/1e20: 44 00 45 00 46 00 47 00-48 00 49 00 4a 00 4b 00 D.E.F.G.H.I.J.K.
+06eff4c0/1e30: 4c 00 4d 00 4e 00 4f 00-50 00 51 00 52 00 53 00 L.M.N.O.P.Q.R.S.
+06eff4d0/1e40: 54 00 55 00 56 00 57 00-58 00 59 00 5a 00 5b 00 T.U.V.W.X.Y.Z.[.
+06eff4e0/1e50: 5c 00 5d 00 5e 00 5f 00-60 00 41 00 42 00 43 00 \.].^._.`.A.B.C.
+06eff4f0/1e60: 44 00 45 00 46 00 47 00-48 00 49 00 4a 00 4b 00 D.E.F.G.H.I.J.K.
+06eff500/1e70: 4c 00 4d 00 4e 00 4f 00-50 00 51 00 52 00 53 00 L.M.N.O.P.Q.R.S.
+06eff510/1e80: 54 00 55 00 56 00 57 00-58 00 59 00 5a 00 7b 00 T.U.V.W.X.Y.Z.{.
+06eff520/1e90: 7c 00 7d 00 7e 00 7f 00-ac 20 81 00 1a 20 91 01 |.}.~.... ... ..
+06eff530/1ea0: 1e 20 26 20 20 20 21 20-c6 02 30 20 60 01 39 20 . &   ! ..0 `.9 
+06eff540/1eb0: 52 01 8d 00 7d 01 8f 00-90 00 18 20 19 20 1c 20 R...}...... . . 
+06eff550/1ec0: 1d 20 22 20 13 20 14 20-dc 02 22 21 60 01 3a 20 . " . . .."!`.: 
+06eff560/1ed0: 52 01 9d 00 7d 01 78 01-a0 00 a1 00 a2 00 a3 00 R...}.x.........
+06eff570/1ee0: a4 00 a5 00 a6 00 a7 00-a8 00 a9 00 aa 00 ab 00 ................
+06eff580/1ef0: ac 00 ad 00 ae 00 af 00-b0 00 b1 00 b2 00 b3 00 ................
+06eff590/1f00: b4 00 b5 00 b6 00 b7 00-b8 00 b9 00 ba 00 bb 00 ................
+06eff5a0/1f10: bc 00 bd 00 be 00 bf 00-c0 00 c1 00 c2 00 c3 00 ................
+06eff5b0/1f20: c4 00 c5 00 c6 00 c7 00-c8 00 c9 00 ca 00 cb 00 ................
+06eff5c0/1f30: cc 00 cd 00 ce 00 cf 00-d0 00 d1 00 d2 00 d3 00 ................
+06eff5d0/1f40: d4 00 d5 00 d6 00 d7 00-d8 00 d9 00 da 00 db 00 ................
+06eff5e0/1f50: dc 00 dd 00 de 00 df 00-c0 00 c1 00 c2 00 c3 00 ................
+06eff5f0/1f60: c4 00 c5 00 c6 00 c7 00-c8 00 c9 00 ca 00 cb 00 ................
+06eff600/1f70: cc 00 cd 00 ce 00 cf 00-d0 00 d1 00 d2 00 d3 00 ................
+06eff610/1f80: d4 00 d5 00 d6 00 f7 00-d8 00 d9 00 da 00 db 00 ................
+06eff620/1f90: dc 00 dd 00 de 00 78 01-00 04 00 00 d1 b5 3c 00 ......x.......<.
+06eff630/1fa0: cc cc 00 00 0e 00 0f 00-20 00 01 00 02 00 03 00 ........ .......
+06eff640/1fb0: 04 00 05 00 06 00 07 00-08 00 09 00 0a 00 0b 00 ................
+06eff650/1fc0: 0c 00 0d 00 0e 00 0f 00-10 00 11 00 12 00 13 00 ................
+06eff660/1fd0: 14 00 15 00 16 00 17 00-18 00 19 00 1a 00 1b 00 ................
+06eff670/1fe0: 1c 00 1d 00 1e 00 1f 00-20 00 21 00 22 00 23 00 ........ .!.".#.
+06eff680/1ff0: 24 00 25 00 26 00 27 00-28 00 29 00 2a 00 2b 00 $.%.&.'.(.).*.+.
+06eff690/2000: 2c 00 2d 00 2e 00 2f 00-30 00 31 00 32 00 33 00 ,.-.../.0.1.2.3.
+06eff6a0/2010: 34 00 35 00 36 00 37 00-38 00 39 00 3a 00 3b 00 4.5.6.7.8.9.:.;.
+06eff6b0/2020: 3c 00 3d 00 3e 00 3f 00-40 00 41 00 42 00 43 00 <.=.>.?.@.A.B.C.
+06eff6c0/2030: 44 00 45 00 46 00 47 00-48 00 49 00 4a 00 4b 00 D.E.F.G.H.I.J.K.
+06eff6d0/2040: 4c 00 4d 00 4e 00 4f 00-50 00 51 00 52 00 53 00 L.M.N.O.P.Q.R.S.
+06eff6e0/2050: 54 00 55 00 56 00 57 00-58 00 59 00 5a 00 5b 00 T.U.V.W.X.Y.Z.[.
+06eff6f0/2060: 5c 00 5d 00 5e 00 5f 00-60 00 61 00 62 00 63 00 \.].^._.`.a.b.c.
+06eff700/2070: 64 00 65 00 66 00 67 00-68 00 69 00 6a 00 6b 00 d.e.f.g.h.i.j.k.
+06eff710/2080: 6c 00 6d 00 6e 00 6f 00-70 00 71 00 72 00 73 00 l.m.n.o.p.q.r.s.
+06eff720/2090: 74 00 75 00 76 00 77 00-78 00 79 00 7a 00 7b 00 t.u.v.w.x.y.z.{.
+06eff730/20a0: 7c 00 7d 00 7e 00 7f 00-ac 20 81 00 1a 20 92 01 |.}.~.... ... ..
+06eff740/20b0: 1e 20 26 20 20 20 21 20-c6 02 30 20 60 01 39 20 . &   ! ..0 `.9 
+06eff750/20c0: 52 01 8d 00 7d 01 8f 00-90 00 18 20 19 20 1c 20 R...}...... . . 
+06eff760/20d0: 1d 20 22 20 13 20 14 20-dc 02 22 21 61 01 3a 20 . " . . .."!a.: 
+06eff770/20e0: 53 01 9d 00 7e 01 78 01-a0 00 a1 00 a2 00 a3 00 S...~.x.........
+06eff780/20f0: a4 00 a5 00 a6 00 a7 00-a8 00 a9 00 aa 00 ab 00 ................
+06eff790/2100: ac 00 ad 00 ae 00 af 00-b0 00 b1 00 b2 00 b3 00 ................
+06eff7a0/2110: b4 00 b5 00 b6 00 b7 00-b8 00 b9 00 ba 00 bb 00 ................
+06eff7b0/2120: bc 00 bd 00 be 00 bf 00-c0 00 c1 00 c2 00 c3 00 ................
+06eff7c0/2130: c4 00 c5 00 c6 00 c7 00-c8 00 c9 00 ca 00 cb 00 ................
+06eff7d0/2140: cc 00 cd 00 ce 00 cf 00-d0 00 d1 00 d2 00 d3 00 ................
+06eff7e0/2150: d4 00 d5 00 d6 00 d7 00-d8 00 d9 00 da 00 db 00 ................
+06eff7f0/2160: dc 00 dd 00 de 00 df 00-e0 00 e1 00 e2 00 e3 00 ................
+06eff800/2170: e4 00 e5 00 e6 00 e7 00-e8 00 e9 00 ea 00 eb 00 ................
+06eff810/2180: ec 00 ed 00 ee 00 ef 00-f0 00 f1 00 f2 00 f3 00 ................
+06eff820/2190: f4 00 f5 00 f6 00 f7 00-f8 00 f9 00 fa 00 fb 00 ................
+06eff830/21a0: fc 00 fd 00 fe 00 ff 00-d5 78 65 29 17 b5 3c 00 .........xe)..<.
+06eff840/21b0: 00 01 00 00 70 18 ff 06-5b b6 3c 00 00 01 00 00 ....p...[.<.....
+06eff850/21c0: 38 f6 ef 06 00 01 00 00-08 3f 92 f0 98 f8 ef 06 8........?......
+06eff860/21d0: 91 b6 3c 00 88 f8 ef 06-00 00 00 00 00 02 00 00 ..<.............
+06eff870/21e0: e4 fc ef 06 00 01 00 00-e4 fa ef 06 00 01 00 00 ................
+06eff880/21f0: e4 04 00 00 00 00 00 00-80 f7 4b 00 68 f8 4b 00 ..........K.h.K.
+06eff890/2200: b8 05 ff 06 01 fb ef 06-e8 fd ef 06 e5 82 3c 00 ..............<.
+06eff8a0/2210: 00 00 00 00 00 00 00 00-00 02 00 00 e4 fc ef 06 ................
+06eff8b0/2220: 00 01 00 00 e4 fa ef 06-00 01 00 00 e4 04 00 00 ................
+06eff8c0/2230: 00 00 00 00 8c 18 ff 06-8b 83 3c 00 02 00 00 00 ..........<.....
+06eff8d0/2240: 01 00 00 00 3f 00 00 00-00 00 00 00 00 00 00 00 ....?...........
+06eff8e0/2250: 00 00 00 00 48 02 20 02-20 02 20 02 20 02 20 02 ....H. . . . . .
+06eff8f0/2260: 20 02 20 02 20 02 68 02-28 02 28 02 28 02 28 02  . . .h.(.(.(.(.
+06eff900/2270: 20 02 20 02 20 02 20 02-20 02 20 02 20 02 20 02  . . . . . . . .
+06eff910/2280: 20 02 20 02 20 02 20 02-20 02 20 02 20 02 20 02  . . . . . . . .
+06eff920/2290: 20 02 20 02 48 02 10 02-10 02 10 02 10 02 10 02  . .H...........
+06eff930/22a0: 10 02 10 02 10 02 10 02-10 02 10 02 10 02 10 02 ................
+06eff940/22b0: 10 02 10 02 84 02 84 02-84 02 84 02 84 02 84 02 ................
+06eff950/22c0: 84 02 84 02 84 02 84 02-10 02 10 02 10 02 10 02 ................
+06eff960/22d0: 10 02 10 02 10 02 81 03-81 03 81 03 81 03 81 03 ................
+06eff970/22e0: 81 03 01 03 01 03 01 03-01 03 01 03 01 03 01 03 ................
+06eff980/22f0: 01 03 01 03 01 03 01 03-01 03 01 03 01 03 01 03 ................
+06eff990/2300: 01 03 01 03 01 03 01 03-01 03 10 02 10 02 10 02 ................
+06eff9a0/2310: 10 02 10 02 10 02 82 03-82 03 82 03 82 03 82 03 ................
+06eff9b0/2320: 82 03 02 03 02 03 02 03-64 fb ef 06 62 74 26 77 ........d...bt&w
+06eff9c0/2330: 4b 8f 26 77 22 a6 77 a5-00 00 02 07 40 04 00 00 K.&w".w.....@...
+06eff9d0/2340: 00 fc ef 06 02 03 02 03-02 03 10 02 10 02 10 02 ................
+06eff9e0/2350: 10 02 20 02 00 02 20 02-10 02 02 03 6e 00 00 6e .. ... .....n..n
+06eff9f0/2360: 10 02 10 02 00 02 10 02-01 03 10 02 01 03 20 02 .............. .
+06effa00/2370: 01 03 20 02 02 00 00 02-10 02 10 02 00 08 00 08 .. .............
+06effa10/2380: 10 02 10 02 00 02 00 02-02 03 10 02 02 03 20 02 .............. .
+06effa20/2390: 02 03 01 03 48 02 10 02-10 02 10 02 10 02 10 02 ....H...........
+06effa30/23a0: 10 02 10 02 10 02 10 02-12 03 10 02 09 07 00 00 ................
+06effa40/23b0: 77 07 00 00 10 02 10 02-e8 4f 03 07 10 02 12 03 w........O......
+06effa50/23c0: 87 00 00 00 89 f8 ff ff-12 03 10 02 10 02 10 02 ................
+06effa60/23d0: 22 76 02 07 01 03 01 03-01 03 01 03 01 03 01 03 "v..............
+06effa70/23e0: 01 03 01 03 01 03 01 03-01 03 01 03 01 03 01 03 ................
+06effa80/23f0: 77 07 00 00 01 03 01 03-00 00 02 07 01 03 01 03 w...............
+06effa90/2400: 01 03 10 02 ff 07 00 00-ff 07 00 00 c0 00 02 07 ................
+06effaa0/2410: 30 86 02 07 02 03 02 03-02 03 02 03 00 00 00 00 0...............
+06effab0/2420: 00 00 00 00 02 03 02 03-89 00 00 00 02 03 02 03 ................
+06effac0/2430: 02 03 02 03 77 07 00 00-02 03 02 03 7f 07 00 00 ....w...........
+06effad0/2440: 00 00 00 00 02 03 02 03-f0 0f 03 07 48 04 00 00 ............H...
+06effae0/2450: 02 03 02 03 20 01 02 03-c0 00 02 07 00 00 02 07 .... ...........
+06effaf0/2460: 02 00 2c 00 01 00 00 00-14 01 00 01 77 07 00 00 ..,.........w...
+06effb00/2470: e0 4f 03 07 20 21 22 23-f7 06 00 00 e0 4f 03 07 .O.. !"#.....O..
+06effb10/2480: e8 4f 03 07 30 31 32 33-00 00 00 00 38 39 3a 3b .O..0123....89:;
+06effb20/2490: dc 1b 00 00 00 00 00 00-e0 2f ff 06 00 00 01 06 ........./......
+06effb30/24a0: 20 85 02 07 e8 1f ff 00-6e 00 00 6e 00 00 00 00  .......n..n....
+06effb40/24b0: 77 07 00 00 20 85 02 07-e7 4f 03 07 e0 1f ff 06 w... ....O......
+06effb50/24c0: 7f 00 00 00 f8 fe ef 06-70 b5 29 77 f6 9e aa d4 ........p.)w....
+06effb60/24d0: fe ff ff ff f8 fb ef 06-1c 71 26 77 40 04 00 00 .........q&w@...
+06effb70/24e0: 48 04 00 00 58 86 02 07-c8 fb ef 06 70 3b 3c 00 H...X.......p;<.
+06effb80/24f0: 00 00 02 07 38 1f ff 06-00 00 ff 06 00 00 00 00 ....8...........
+06effb90/2500: f0 1f ff 06 15 02 00 00-00 00 ff 06 00 00 00 00 ................
+06effba0/2510: 15 02 00 00 dc fb ef 00-1c 34 29 77 48 04 00 00 .........4)wH...
+06effbb0/2520: ff ff ff ff b4 5b 3c 00-00 00 00 00 00 00 00 00 .....[<.........
+06effbc0/2530: 00 00 00 00 1c 34 29 77-03 00 00 00 ff ff ff ff .....4)w........
+06effbd0/2540: 70 3b 3c 00 b4 5b 3c 00-e8 4f 03 07 00 00 2c 00 p;<..[<..O....,.
+06effbe0/2550: 40 04 00 00 70 3b 3c 00-b4 5b 3c 00 00 00 02 07 @...p;<..[<.....
+06effbf0/2560: 00 00 3c 00 00 00 00 00-1c fc ef 06 be 60 26 77 ..<..........`&w
+06effc00/2570: 00 00 00 00 be 60 26 77-00 00 2c 00 00 00 00 00 .....`&w..,.....
+06effc10/2580: b4 5b 3c 00 00 00 de 98-08 52 03 07 20 00 00 00 .[<......R.. ...
+06effc20/2590: 01 00 00 00 60 fe ef 06-a8 69 f6 75 33 cb 77 08 ....`....i.u3.w.
+06effc30/25a0: 70 3b 3c 00 1c 22 3f 00-00 10 c2 06 68 f7 77 bc p;<.."?.....h.w.
+06effc40/25b0: 00 00 3c 00 00 c0 74 06-00 00 00 01 9a 00 9c 00 ..<...t.........
+06effc50/25c0: 54 fc ef 06 5c 00 44 00-65 00 76 00 69 00 63 00 T...\.D.e.v.i.c.
+06effc60/25d0: 65 00 5c 00 48 00 61 00-72 00 64 00 64 00 69 00 e.\.H.a.r.d.d.i.
+06effc70/25e0: 73 00 6b 00 56 00 6f 00-6c 00 75 00 6d 00 65 00 s.k.V.o.l.u.m.e.
+06effc80/25f0: 33 00 5c 00 55 00 73 00-65 00 72 00 73 00 5c 00 3.\.U.s.e.r.s.\.
+06effc90/2600: 4a 00 6f 00 68 00 6e 00-5c 00 44 00 6f 00 77 00 J.o.h.n.\.D.o.w.
+06effca0/2610: 6e 00 6c 00 6f 00 61 00-64 00 73 00 5c 00 56 00 n.l.o.a.d.s.\.V.
+06effcb0/2620: 69 00 72 00 74 00 75 00-61 00 6c 00 42 00 6f 00 i.r.t.u.a.l.B.o.
+06effcc0/2630: 78 00 2d 00 36 00 2e 00-31 00 2e 00 33 00 32 00 x.-.6...1...3.2.
+06effcd0/2640: 2d 00 31 00 34 00 39 00-32 00 39 00 30 00 2d 00 -.1.4.9.2.9.0.-.
+06effce0/2650: 57 00 69 00 6e 00 2e 00-65 00 78 00 65 00 00 00 W.i.n...e.x.e...
+06effcf0/2660: c0 00 ff 06 00 00 ff 06-0a 00 00 00 01 00 00 00 ................
+06effd00/2670: c0 01 00 01 2c 01 00 00-f8 25 ff 06 00 00 ff 06 ....,....%......
+06effd10/2680: 7f 00 00 00 f8 25 ff 06-00 26 ff 06 3d 01 00 00 .....%...&..=...
+06effd20/2690: 00 00 00 00 89 00 00 00-fc 01 00 00 00 00 00 00 ................
+06effd30/26a0: d8 25 ff 06 e0 00 01 06-70 02 ff 06 e0 0f ff 00 .%......p.......
+06effd40/26b0: 10 00 00 10 00 00 00 00-2c 01 00 00 70 02 ff 06 ........,...p...
+06effd50/26c0: ff 25 ff 06 00 00 01 00-00 00 00 00 f8 fe ef 06 .%..............
+06effd60/26d0: 70 b5 29 77 f6 9e aa d4-fe ff ff ff 00 fe ef 06 p.)w............
+06effd70/26e0: 1c 71 26 77 80 00 00 00-88 00 00 00 e8 02 ff 06 .q&w............
+06effd80/26f0: d0 fd ef 06 70 3b 3c 00-00 00 ff 06 e8 0f ff 06 ....p;<.........
+06effd90/2700: 00 00 00 00 b8 02 01 01-00 26 ff 06 c0 00 ff 06 .........&......
+06effda0/2710: 3d 01 00 3c 11 01 00 00-00 00 ff 06 00 00 00 00 =..<............
+06effdb0/2720: 00 00 00 00 88 00 00 00-70 02 ff 06 11 01 00 00 ........p.......
+06effdc0/2730: 70 02 ff 06 00 00 00 00-00 00 00 00 7f 00 00 00 p...............
+06effdd0/2740: 03 00 00 00 b8 00 00 00-11 00 00 00 70 b5 29 77 ............p.)w
+06effde0/2750: d6 9e aa d4 08 00 00 00-00 00 00 00 00 26 ff 06 .............&..
+06effdf0/2760: 00 26 ff 06 18 00 00 00-e8 0f ff 06 70 3b 3c 00 .&..........p;<.
+06effe00/2770: 00 00 00 00 b9 b0 27 77-20 fe ef 06 ab ea f3 75 ......'w ......u
+06effe10/2780: 07 00 00 00 1c fe ef 06-50 fe ef 06 4e a3 77 a5 ........P...N.w.
+06effe20/2790: 44 fe ef 06 2a 53 3c 00-00 00 00 00 00 00 00 00 D...*S<.........
+06effe30/27a0: 50 fe ef 06 37 53 3c 00-50 fe ef 06 c2 76 3c 00 P...7S<.P....v<.
+06effe40/27b0: 11 2b 02 07 60 fe ef 06-99 8c 3c 00 00 00 00 00 .+..`.....<.....
+06effe50/27c0: 80 f7 4b 00 70 18 ff 06-b8 05 ff 06 01 10 36 f6 ..K.p.........6.
+06effe60/27d0: 78 fe ef 06 ec 8c 3c 00-00 00 00 00 22 00 00 00 x.....<....."...
+06effe70/27e0: 01 00 00 00 2c 39 92 f0-08 ff ef 06 1d 3b 3c 00 ....,9.......;<.
+06effe80/27f0: 00 00 3c 00 00 00 00 00-13 2b 02 07 01 00 00 00 ..<......+......
+06effe90/2800: 5c 38 92 f0 70 3b 3c 00-70 3b 3c 00 00 10 c2 06 \8..p;<.p;<.....
+06effea0/2810: 44 00 00 00 34 11 02 07-14 11 02 07 a2 10 02 07 D...4...........
+06effeb0/2820: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06effec0/2830: 00 00 00 00 00 00 00 00-00 00 00 00 01 04 00 00 ................
+06effed0/2840: 01 00 00 00 00 00 00 00-00 00 00 00 01 00 01 00 ................
+06effee0/2850: 00 00 00 00 03 00 00 80-00 00 00 00 00 00 00 00 ................
+06effef0/2860: 90 fe ef 06 94 d7 ef 06-64 ff ef 06 60 43 3c 00 ........d...`C<.
+06efff00/2870: 94 12 36 f6 00 00 00 00-18 ff ef 06 c9 fc aa 76 ..6............v
+06efff10/2880: 00 10 c2 06 b0 fc aa 76-74 ff ef 06 ae 82 28 77 .......vt.....(w
+06efff20/2890: 00 10 c2 06 32 a2 77 a5-00 00 00 00 00 00 00 00 ....2.w.........
+06efff30/28a0: 00 10 c2 06 03 00 00 80-00 00 00 00 40 15 01 76 ............@..v
+06efff40/28b0: 48 26 ca 01 26 ca 01 48-00 00 00 00 00 00 00 00 H&..&..H........
+06efff50/28c0: 74 d7 ef 06 08 33 cb 77-00 00 00 00 24 ff ef 06 t....3.w....$...
+06efff60/28d0: 74 d7 ef 06 7c ff ef 06-70 b5 29 77 6e 97 aa d4 t...|...p.)wn...
+06efff70/28e0: 00 00 00 00 84 ff ef 06-7e 82 28 77 ff ff ff ff ........~.(w....
+06efff80/28f0: eb 93 2a 77 00 00 00 00-00 00 00 00 70 3b 3c 00 ..*w........p;<.
+06efff90/2900: 00 10 c2 06 00 00 00 00-00 00 00 00 00 00 00 00 ................
+06efffa0/2910: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+******** ****  <ditto x 4>
+06effff0/2960: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+Thread ID:   000000f8
+Thread name: main
+Thread IPRT: 06ff2dd0
+
+Loaded Modules:
+Address range    [*] Timestamp Path
+003c0000..06b0bfff*  61e55352  C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+77220000..773c3fff   701fa718  C:\Windows\SYSTEM32\ntdll.dll
+76a90000..76b7ffff   869878d1  C:\Windows\System32\KERNEL32.DLL
+75e30000..76068fff   bf208242  C:\Windows\System32\KERNELBASE.dll
+762e0000..76328fff   23dfdc7f  C:\Windows\System32\SHLWAPI.dll
+76ed0000..76f8efff   7e27562f  C:\Windows\System32\msvcrt.dll
+74070000..740b3fff   6db2d0a1  C:\Windows\SYSTEM32\pdh.dll
+76330000..7644ffff   6763d3a2  C:\Windows\System32\ucrtbase.dll
+76170000..761ecfff   ce8589a8  C:\Windows\System32\advapi32.dll
+75090000..75106fff   3da3d59d  C:\Windows\System32\sechost.dll
+77040000..770f8fff   aebb450f  C:\Windows\System32\RPCRT4.dll
+757d0000..757e8fff   1fa51b5c  C:\Windows\System32\bcrypt.dll
+75380000..753e2fff   03269c1c  C:\Windows\System32\ws2_32.dll
+
+Potential code addresses on the stack:
+Xcpt PC : 003c2ec4 - 0x00002ec4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efdd60: 003c2dfd - 0x00002dfd bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efdd64: 003c2dcc - 0x00002dcc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efdd6c: 003c2ed8 - 0x00002ed8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efdd80: 003c2e6c - 0x00002e6c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efdd84: 004bf064 - 0x000ff064 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efdd88: 003c2dd8 - 0x00002dd8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efdd8c: 003d4c04 - 0x00014c04 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efddb0: 004c1580 - 0x00101580 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efddbc: 003d4da1 - 0x00014da1 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efddd4: 003d4f2c - 0x00014f2c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efddf4: 003d4f86 - 0x00014f86 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efde08: 003c1f39 - 0x00001f39 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efde18: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff360: 75f4fb61 - 0x0011fb61 bytes into C:\Windows\System32\KERNELBASE.dll
+06eff380: 75f4fb61 - 0x0011fb61 bytes into C:\Windows\System32\KERNELBASE.dll
+06eff3b4: 76ab1110 - 0x00021110 bytes into C:\Windows\System32\KERNEL32.DLL
+06eff3bc: 75f4b564 - 0x0011b564 bytes into C:\Windows\System32\KERNELBASE.dll
+06eff3d4: 76ab1110 - 0x00021110 bytes into C:\Windows\System32\KERNEL32.DLL
+06eff3fc: 003cb635 - 0x0000b635 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff418: 003cb647 - 0x0000b647 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4a0: 003d003c - 0x0001003c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4a4: 003f003e - 0x0003003e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4a8: 00410040 - 0x00050040 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4ac: 00430042 - 0x00070042 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4b0: 00450044 - 0x00090044 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4b4: 00470046 - 0x000b0046 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4b8: 00490048 - 0x000d0048 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4bc: 004b004a - 0x000f004a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4c0: 004d004c - 0x0011004c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4c4: 004f004e - 0x0013004e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4c8: 00510050 - 0x00150050 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4cc: 00530052 - 0x00170052 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4d0: 00550054 - 0x00190054 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4d4: 00570056 - 0x001b0056 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4d8: 00590058 - 0x001d0058 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4dc: 005b005a - 0x001f005a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4e0: 005d005c - 0x0021005c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4e4: 005f005e - 0x0023005e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4e8: 00410060 - 0x00050060 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4ec: 00430042 - 0x00070042 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4f0: 00450044 - 0x00090044 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4f4: 00470046 - 0x000b0046 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4f8: 00490048 - 0x000d0048 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff4fc: 004b004a - 0x000f004a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff500: 004d004c - 0x0011004c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff504: 004f004e - 0x0013004e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff508: 00510050 - 0x00150050 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff50c: 00530052 - 0x00170052 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff510: 00550054 - 0x00190054 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff514: 00570056 - 0x001b0056 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff518: 00590058 - 0x001d0058 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff51c: 007b005a - 0x003f005a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff520: 007d007c - 0x0041007c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff524: 007f007e - 0x0043007e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff528: 008120ac - 0x004520ac bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff52c: 0191201a - 0x0155201a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff540: 008d0152 - 0x00510152 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff544: 008f017d - 0x0053017d bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff560: 009d0152 - 0x00610152 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff564: 0178017d - 0x013c017d bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff568: 00a100a0 - 0x006500a0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff56c: 00a300a2 - 0x006700a2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff570: 00a500a4 - 0x006900a4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff574: 00a700a6 - 0x006b00a6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff578: 00a900a8 - 0x006d00a8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff57c: 00ab00aa - 0x006f00aa bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff580: 00ad00ac - 0x007100ac bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff584: 00af00ae - 0x007300ae bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff588: 00b100b0 - 0x007500b0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff58c: 00b300b2 - 0x007700b2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff590: 00b500b4 - 0x007900b4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff594: 00b700b6 - 0x007b00b6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff598: 00b900b8 - 0x007d00b8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff59c: 00bb00ba - 0x007f00ba bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5a0: 00bd00bc - 0x008100bc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5a4: 00bf00be - 0x008300be bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5a8: 00c100c0 - 0x008500c0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5ac: 00c300c2 - 0x008700c2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5b0: 00c500c4 - 0x008900c4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5b4: 00c700c6 - 0x008b00c6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5b8: 00c900c8 - 0x008d00c8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5bc: 00cb00ca - 0x008f00ca bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5c0: 00cd00cc - 0x009100cc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5c4: 00cf00ce - 0x009300ce bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5c8: 00d100d0 - 0x009500d0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5cc: 00d300d2 - 0x009700d2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5d0: 00d500d4 - 0x009900d4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5d4: 00d700d6 - 0x009b00d6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5d8: 00d900d8 - 0x009d00d8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5dc: 00db00da - 0x009f00da bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5e0: 00dd00dc - 0x00a100dc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5e4: 00df00de - 0x00a300de bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5e8: 00c100c0 - 0x008500c0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5ec: 00c300c2 - 0x008700c2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5f0: 00c500c4 - 0x008900c4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5f4: 00c700c6 - 0x008b00c6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5f8: 00c900c8 - 0x008d00c8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff5fc: 00cb00ca - 0x008f00ca bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff600: 00cd00cc - 0x009100cc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff604: 00cf00ce - 0x009300ce bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff608: 00d100d0 - 0x009500d0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff60c: 00d300d2 - 0x009700d2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff610: 00d500d4 - 0x009900d4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff614: 00f700d6 - 0x00bb00d6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff618: 00d900d8 - 0x009d00d8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff61c: 00db00da - 0x009f00da bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff620: 00dd00dc - 0x00a100dc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff624: 017800de - 0x013c00de bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff62c: 003cb5d1 - 0x0000b5d1 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6b0: 003d003c - 0x0001003c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6b4: 003f003e - 0x0003003e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6b8: 00410040 - 0x00050040 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6bc: 00430042 - 0x00070042 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6c0: 00450044 - 0x00090044 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6c4: 00470046 - 0x000b0046 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6c8: 00490048 - 0x000d0048 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6cc: 004b004a - 0x000f004a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6d0: 004d004c - 0x0011004c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6d4: 004f004e - 0x0013004e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6d8: 00510050 - 0x00150050 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6dc: 00530052 - 0x00170052 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6e0: 00550054 - 0x00190054 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6e4: 00570056 - 0x001b0056 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6e8: 00590058 - 0x001d0058 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6ec: 005b005a - 0x001f005a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6f0: 005d005c - 0x0021005c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6f4: 005f005e - 0x0023005e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6f8: 00610060 - 0x00250060 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff6fc: 00630062 - 0x00270062 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff700: 00650064 - 0x00290064 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff704: 00670066 - 0x002b0066 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff708: 00690068 - 0x002d0068 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff70c: 006b006a - 0x002f006a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff710: 006d006c - 0x0031006c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff714: 006f006e - 0x0033006e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff718: 00710070 - 0x00350070 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff71c: 00730072 - 0x00370072 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff720: 00750074 - 0x00390074 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff724: 00770076 - 0x003b0076 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff728: 00790078 - 0x003d0078 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff72c: 007b007a - 0x003f007a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff730: 007d007c - 0x0041007c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff734: 007f007e - 0x0043007e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff738: 008120ac - 0x004520ac bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff73c: 0192201a - 0x0156201a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff750: 008d0152 - 0x00510152 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff754: 008f017d - 0x0053017d bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff770: 009d0153 - 0x00610153 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff774: 0178017e - 0x013c017e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff778: 00a100a0 - 0x006500a0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff77c: 00a300a2 - 0x006700a2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff780: 00a500a4 - 0x006900a4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff784: 00a700a6 - 0x006b00a6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff788: 00a900a8 - 0x006d00a8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff78c: 00ab00aa - 0x006f00aa bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff790: 00ad00ac - 0x007100ac bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff794: 00af00ae - 0x007300ae bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff798: 00b100b0 - 0x007500b0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff79c: 00b300b2 - 0x007700b2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7a0: 00b500b4 - 0x007900b4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7a4: 00b700b6 - 0x007b00b6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7a8: 00b900b8 - 0x007d00b8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7ac: 00bb00ba - 0x007f00ba bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7b0: 00bd00bc - 0x008100bc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7b4: 00bf00be - 0x008300be bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7b8: 00c100c0 - 0x008500c0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7bc: 00c300c2 - 0x008700c2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7c0: 00c500c4 - 0x008900c4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7c4: 00c700c6 - 0x008b00c6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7c8: 00c900c8 - 0x008d00c8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7cc: 00cb00ca - 0x008f00ca bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7d0: 00cd00cc - 0x009100cc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7d4: 00cf00ce - 0x009300ce bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7d8: 00d100d0 - 0x009500d0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7dc: 00d300d2 - 0x009700d2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7e0: 00d500d4 - 0x009900d4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7e4: 00d700d6 - 0x009b00d6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7e8: 00d900d8 - 0x009d00d8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7ec: 00db00da - 0x009f00da bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7f0: 00dd00dc - 0x00a100dc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7f4: 00df00de - 0x00a300de bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7f8: 00e100e0 - 0x00a500e0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff7fc: 00e300e2 - 0x00a700e2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff800: 00e500e4 - 0x00a900e4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff804: 00e700e6 - 0x00ab00e6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff808: 00e900e8 - 0x00ad00e8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff80c: 00eb00ea - 0x00af00ea bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff810: 00ed00ec - 0x00b100ec bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff814: 00ef00ee - 0x00b300ee bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff818: 00f100f0 - 0x00b500f0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff81c: 00f300f2 - 0x00b700f2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff820: 00f500f4 - 0x00b900f4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff824: 00f700f6 - 0x00bb00f6 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff828: 00f900f8 - 0x00bd00f8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff82c: 00fb00fa - 0x00bf00fa bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff830: 00fd00fc - 0x00c100fc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff834: 00ff00fe - 0x00c300fe bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff83c: 003cb517 - 0x0000b517 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff848: 003cb65b - 0x0000b65b bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff860: 003cb691 - 0x0000b691 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff888: 004bf780 - 0x000ff780 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff88c: 004bf868 - 0x000ff868 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff89c: 003c82e5 - 0x000082e5 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff8c8: 003c838b - 0x0000838b bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff8e4: 02200248 - 0x01e40248 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff8e8: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff8ec: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff8f0: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff8f4: 02680220 - 0x022c0220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff8f8: 02280228 - 0x01ec0228 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff8fc: 02280228 - 0x01ec0228 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff900: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff904: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff908: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff90c: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff910: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff914: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff918: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff91c: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff920: 02200220 - 0x01e40220 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff924: 02100248 - 0x01d40248 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff928: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff92c: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff930: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff934: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff938: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff93c: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff940: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff944: 02840284 - 0x02480284 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff948: 02840284 - 0x02480284 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff94c: 02840284 - 0x02480284 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff950: 02840284 - 0x02480284 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff954: 02840284 - 0x02480284 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff958: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff95c: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff960: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff964: 03810210 - 0x03450210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff968: 03810381 - 0x03450381 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff96c: 03810381 - 0x03450381 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff970: 03010381 - 0x02c50381 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff974: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff978: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff97c: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff980: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff984: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff988: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff98c: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff990: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff994: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff998: 02100301 - 0x01d40301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff99c: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9a0: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9a4: 03820210 - 0x03460210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9a8: 03820382 - 0x03460382 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9ac: 03820382 - 0x03460382 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9b0: 03020382 - 0x02c60382 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9b4: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9bc: 77267462 - 0x00047462 bytes into C:\Windows\SYSTEM32\ntdll.dll
+06eff9c0: 77268f4b - 0x00048f4b bytes into C:\Windows\SYSTEM32\ntdll.dll
+06eff9d4: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9d8: 02100302 - 0x01d40302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9dc: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9e0: 02200210 - 0x01e40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9e4: 02200200 - 0x01e40200 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9e8: 03020210 - 0x02c60210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9f0: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9f4: 02100200 - 0x01d40200 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9f8: 02100301 - 0x01d40301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06eff9fc: 02200301 - 0x01e40301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa00: 02200301 - 0x01e40301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa04: 02000002 - 0x01c40002 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa08: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa10: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa14: 02000200 - 0x01c40200 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa18: 02100302 - 0x01d40302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa1c: 02200302 - 0x01e40302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa20: 03010302 - 0x02c50302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa24: 02100248 - 0x01d40248 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa28: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa2c: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa30: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa34: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa38: 02100312 - 0x01d40312 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa44: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa4c: 03120210 - 0x02d60210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa58: 02100312 - 0x01d40312 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa5c: 02100210 - 0x01d40210 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa64: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa68: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa6c: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa70: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa74: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa78: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa7c: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa84: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa8c: 03010301 - 0x02c50301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effa90: 02100301 - 0x01d40301 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effaa4: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effaa8: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effab4: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effabc: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effac0: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effac8: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effad4: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effae0: 03020302 - 0x02c60302 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effae4: 03020120 - 0x02c60120 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effaf8: 01000114 - 0x00c40114 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effb2c: 06010000 - 0x05c50000 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effb34: 00ff1fe8 - 0x00c31fe8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effb58: 7729b570 - 0x0007b570 bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effb68: 7726711c - 0x0004711c bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effb7c: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effba4: 00effbdc - 0x00b3fbdc bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effba8: 7729341c - 0x0007341c bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effbb4: 003c5bb4 - 0x00005bb4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effbc4: 7729341c - 0x0007341c bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effbd0: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effbd4: 003c5bb4 - 0x00005bb4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effbe4: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effbe8: 003c5bb4 - 0x00005bb4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effbf0: 003c0000 - 0x00000000 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effbfc: 772660be - 0x000460be bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effc04: 772660be - 0x000460be bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effc10: 003c5bb4 - 0x00005bb4 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc28: 75f669a8 - 0x001369a8 bytes into C:\Windows\System32\KERNELBASE.dll
+06effc30: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc34: 003f221c - 0x0003221c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc40: 003c0000 - 0x00000000 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc44: 0674c000 - 0x0638c000 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc48: 01000000 - 0x00c40000 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc4c: 009c009a - 0x0060009a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc54: 0044005c - 0x0008005c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc58: 00760065 - 0x003a0065 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc5c: 00630069 - 0x00270069 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc60: 005c0065 - 0x00200065 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc64: 00610048 - 0x00250048 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc68: 00640072 - 0x00280072 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc6c: 00690064 - 0x002d0064 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc70: 006b0073 - 0x002f0073 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc74: 006f0056 - 0x00330056 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc78: 0075006c - 0x0039006c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc7c: 0065006d - 0x0029006d bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc80: 005c0033 - 0x00200033 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc84: 00730055 - 0x00370055 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc88: 00720065 - 0x00360065 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc8c: 005c0073 - 0x00200073 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc90: 006f004a - 0x0033004a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc94: 006e0068 - 0x00320068 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc98: 0044005c - 0x0008005c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effc9c: 0077006f - 0x003b006f bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effca0: 006c006e - 0x0030006e bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effca4: 0061006f - 0x0025006f bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effca8: 00730064 - 0x00370064 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effcac: 0056005c - 0x001a005c bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effcb0: 00720069 - 0x00360069 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effcb4: 00750074 - 0x00390074 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effcb8: 006c0061 - 0x00300061 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effcbc: 006f0042 - 0x00330042 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effce0: 00690057 - 0x002d0057 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effce8: 00780065 - 0x003c0065 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effd00: 010001c0 - 0x00c401c0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effd34: 060100e0 - 0x05c500e0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effd3c: 00ff0fe0 - 0x00c30fe0 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effd60: 7729b570 - 0x0007b570 bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effd70: 7726711c - 0x0004711c bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effd84: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effd94: 010102b8 - 0x00c502b8 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effddc: 7729b570 - 0x0007b570 bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effdfc: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe04: 7727b0b9 - 0x0005b0b9 bytes into C:\Windows\SYSTEM32\ntdll.dll
+06effe0c: 75f3eaab - 0x0010eaab bytes into C:\Windows\System32\KERNELBASE.dll
+06effe24: 003c532a - 0x0000532a bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe34: 003c5337 - 0x00005337 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe3c: 003c76c2 - 0x000076c2 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe48: 003c8c99 - 0x00008c99 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe50: 004bf780 - 0x000ff780 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe64: 003c8cec - 0x00008cec bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe7c: 003c3b1d - 0x00003b1d bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe80: 003c0000 - 0x00000000 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe94: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effe98: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06effefc: 003c4360 - 0x00004360 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efff0c: 76aafcc9 - 0x0001fcc9 bytes into C:\Windows\System32\KERNEL32.DLL
+06efff14: 76aafcb0 - 0x0001fcb0 bytes into C:\Windows\System32\KERNEL32.DLL
+06efff1c: 772882ae - 0x000682ae bytes into C:\Windows\SYSTEM32\ntdll.dll
+06efff3c: 76011540 - 0x001e1540 bytes into C:\Windows\System32\KERNELBASE.dll
+06efff40: 01ca2648 - 0x018e2648 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
+06efff68: 7729b570 - 0x0007b570 bytes into C:\Windows\SYSTEM32\ntdll.dll
+06efff78: 7728827e - 0x0006827e bytes into C:\Windows\SYSTEM32\ntdll.dll
+06efff80: 772a93eb - 0x000893eb bytes into C:\Windows\SYSTEM32\ntdll.dll
+06efff8c: 003c3b70 - 0x00003b70 bytes into C:\Users\John\Downloads\VirtualBox-6.1.32-149290-Win.exe
