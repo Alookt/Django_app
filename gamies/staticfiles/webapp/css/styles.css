@@ -87,5 +87,6 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #2313;
+    transform: scale(1.2);
 }
 
